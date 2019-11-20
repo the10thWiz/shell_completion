@@ -11,7 +11,11 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 shell_completion = { path = "../shell_completion" }
+serde_json = "1.0"
 
 [[bin]]
 name = "_cargo_completion"
 path = "src/main.rs"
+
+[features]
+go-faster = []
